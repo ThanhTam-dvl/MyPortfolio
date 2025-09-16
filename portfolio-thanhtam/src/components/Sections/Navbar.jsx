@@ -35,7 +35,7 @@ const Navbar = ({
         transition={{ duration: 3, repeat: Infinity, repeatType: "loop" }}
       >
         <img
-          src="public/avt3.JPEG"
+          src="avt3.JPEG"
           alt="Avatar"
           className="w-full h-full object-cover"
         />

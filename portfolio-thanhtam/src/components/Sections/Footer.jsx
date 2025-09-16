@@ -18,7 +18,7 @@ import {
 } from 'react-icons/hi';
 
 // Thêm avatarPath - bạn cần thay đổi đường dẫn này cho phù hợp
-const avatarPath = "public/avt1.JPEG"; // Thay bằng đường dẫn thực tế
+const avatarPath = "avt1.JPEG"; // Thay bằng đường dẫn thực tế
 
 const Footer = ({ t }) => {
   const socialLinks = [

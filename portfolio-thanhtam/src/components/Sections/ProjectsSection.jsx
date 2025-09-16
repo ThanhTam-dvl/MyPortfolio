@@ -5,8 +5,8 @@ import { ExternalLink, Github } from 'lucide-react';
 
 // Thêm đường dẫn ảnh cho các dự án - bạn cần thay đổi các đường dẫn này
 const projectImages = {
-  footballField: "/public/tzfootball.png", 
-  tzBookStore: "/public/tzbookstore.png",     
+  footballField: "/tzfootball.png", 
+  tzBookStore: "/tzbookstore.png",     
 //   trafficDetection: "/images/traffic-detection-project.jpg" 
 };
 

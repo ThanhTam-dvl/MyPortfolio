@@ -4,7 +4,7 @@ import GlitchText from '../BackgroundEffects/GlitchText';
 import { Download, Terminal, Github, Mail, Phone } from 'lucide-react';
 
 // Thêm avatarPath 
-const avatarPath = "public/avt2.JPEG"; 
+const avatarPath = "avt2.JPEG"; 
 
 const HeroSection = ({ t, scrollToSection }) => {
   const [showCVOptions, setShowCVOptions] = useState(false);
