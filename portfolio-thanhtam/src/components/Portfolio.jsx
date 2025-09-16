@@ -71,7 +71,7 @@ const Portfolio = () => {
       hero: {
         greeting: 'Xin chào, Tôi là',
         name: 'NGUYỄN THÀNH TÂM',
-        role: 'Frontend Developer',
+        role: 'Web Developer',
         description:
           'Tôi là sinh viên năm cuối chuyên ngành Kỹ thuật Phần mềm, có kinh nghiệm phát triển ứng dụng web với React, Angular, NodeJS, Laravel và MySQL.',
         downloadCV: 'Tải CV',

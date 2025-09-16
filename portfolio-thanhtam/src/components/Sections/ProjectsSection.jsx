@@ -160,7 +160,7 @@ const ProjectsSection = ({ t }) => (
             <motion.div
               initial={{ opacity: 0 }}
               whileHover={{ opacity: 1 }}
-              className="absolute inset-0 bg-gradient-to-br from-green-500/10 via-transparent to-blue-500/10 rounded-xl"
+              className="absolute inset-0 bg-gradient-to-br from-green-500/10 via-transparent to-blue-500/10 rounded-xl pointer-events-none"
             />
           </div>
         </motion.div>
@@ -267,7 +267,7 @@ const ProjectsSection = ({ t }) => (
                   <span>DEMO</span>
                 </motion.a>
                 <motion.a
-                  href="https://github.com/ThanhTam-dvl/Website_TZBookStore_AngularNodejsMysql"
+                  href="https://github.com/ThanhTam-dvl/Website_TZBookStore_LaravelMysql"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.1, rotate: -5 }}
@@ -281,7 +281,7 @@ const ProjectsSection = ({ t }) => (
             <motion.div
               initial={{ opacity: 0 }}
               whileHover={{ opacity: 1 }}
-              className="absolute inset-0 bg-gradient-to-br from-purple-500/10 via-transparent to-pink-500/10 rounded-xl"
+              className="absolute inset-0 bg-gradient-to-br from-purple-500/10 via-transparent to-pink-500/10 rounded-xl pointer-events-none"
             />
           </div>
         </motion.div>
@@ -398,7 +398,7 @@ const ProjectsSection = ({ t }) => (
                 <motion.div
                 initial={{ opacity: 0 }}
                 whileHover={{ opacity: 1 }}
-                className="absolute inset-0 bg-gradient-to-br from-red-500/10 via-transparent to-orange-500/10 rounded-xl"
+                className="absolute inset-0 bg-gradient-to-br from-red-500/10 via-transparent to-orange-500/10 rounded-xl pointer-events-none"
                 />
             </div>
             </motion.div>
@@ -412,11 +412,11 @@ const ProjectsSection = ({ t }) => (
         viewport={{ once: true }}
       >
         <motion.div
-          animate={{ x: ['-100%', '100%'] }}
+          animate={{ x: ['100%', '-100%'] }}
           transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-          className="whitespace-nowrap text-4xl font-bold text-gray-700/20 font-mono"
+          className="whitespace-nowrap text-4xl font-bold text-gray-500/20 font-mono"
         >
-          FRONTEND DEVELOPER • REACT SPECIALIST • NODEJS EXPERT • UI/UX ENTHUSIAST • 
+          • INTERN FULLSTACK DEVELOPER • FRONTEND (REACT, ANGULAR) • BACKEND (NODEJS, LARAVEL, MYSQL) • 
         </motion.div>
       </motion.div>
     </div>

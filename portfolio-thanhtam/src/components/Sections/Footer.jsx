@@ -1,16 +1,21 @@
 import React from 'react'
 import { motion } from 'framer-motion';
 import { 
-  Facebook, 
-  Instagram, 
-  Youtube, 
-  Github, 
-  Linkedin,
-  Phone, 
-  Mail, 
-  MapPin,
-  Heart
-} from 'lucide-react';
+  FaFacebookF, 
+  FaInstagram, 
+  FaYoutube, 
+  FaGithub, 
+  FaLinkedinIn,
+  FaPhone, 
+  FaMapMarkerAlt,
+  FaHeart
+} from 'react-icons/fa';
+import { 
+  SiTiktok 
+} from 'react-icons/si';
+import { 
+  HiMail 
+} from 'react-icons/hi';
 
 // Thêm avatarPath - bạn cần thay đổi đường dẫn này cho phù hợp
 const avatarPath = "public/avt1.JPEG"; // Thay bằng đường dẫn thực tế
@@ -20,54 +25,54 @@ const Footer = ({ t }) => {
     {
       name: 'Facebook',
       href: 'https://www.facebook.com/thanhtam.100604',
-      icon: Facebook,
+      icon: FaFacebookF,
       color: 'hover:bg-blue-500'
     },
     {
       name: 'Instagram',
       href: 'https://www.instagram.com/thtam_106',
-      icon: Instagram,
+      icon: FaInstagram,
       color: 'hover:bg-pink-500'
     },
     {
       name: 'TikTok',
       href: 'https://www.tiktok.com/@tamzit100604',
-      icon: () => <span className="font-bold text-xs">TT</span>,
+      icon: SiTiktok,
       color: 'hover:bg-black dark:hover:bg-white'
     },
     {
       name: 'YouTube',
       href: 'https://www.youtube.com/@tamnguyenthanh11',
-      icon: Youtube,
+      icon: FaYoutube,
       color: 'hover:bg-red-500'
     },
     {
       name: 'LinkedIn',
       href: 'https://www.linkedin.com/in/t%C3%A2m-nguy%E1%BB%85n-th%C3%A0nh-a12a27345/',
-      icon: Linkedin,
+      icon: FaLinkedinIn,
       color: 'hover:bg-blue-600'
     },
     {
       name: 'GitHub',
       href: 'https://github.com/ThanhTam-dvl',
-      icon: Github,
+      icon: FaGithub,
       color: 'hover:bg-gray-800 dark:hover:bg-white'
     }
   ];
 
   const contactInfo = [
     {
-      icon: Phone,
+      icon: FaPhone,
       text: '+84 868 713 558',
       href: 'tel:+84868713558'
     },
     {
-      icon: Mail,
+      icon: HiMail,
       text: 'nguyenthanhtam10062004@gmail.com',
       href: 'mailto:nguyenthanhtam10062004@gmail.com'
     },
     {
-      icon: MapPin,
+      icon: FaMapMarkerAlt,
       text: 'Quận 12, TP. Hồ Chí Minh',
       href: '#'
     }
@@ -156,7 +161,7 @@ const Footer = ({ t }) => {
             <div className="relative">
               <motion.div
                 whileHover={{ scale: 1.02 }}
-                className="h-52 rounded-lg overflow-hidden border-2 border-cyan-400/30 shadow-lg"
+                className="h-50 rounded-lg overflow-hidden border-2 border-cyan-400/30 shadow-lg"
               >
                 <img 
                   src={avatarPath} 
@@ -199,14 +204,13 @@ const Footer = ({ t }) => {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="text-center"
         >
-          
 
           <motion.p
             className="text-gray-400 text-xs mb-1 flex items-center justify-center gap-1"
             animate={{ opacity: [0.6, 1, 0.6] }}
             transition={{ duration: 2, repeat: Infinity }}
           >
-            Made with <Heart className="w-3 h-3 text-red-500 fill-red-500" /> by Nguyen Thanh Tam
+            Made with <FaHeart className="w-3 h-3 text-red-500" /> by Nguyen Thanh Tam
           </motion.p>
           
           <motion.p

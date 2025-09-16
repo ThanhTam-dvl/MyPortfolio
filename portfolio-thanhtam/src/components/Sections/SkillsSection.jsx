@@ -53,10 +53,10 @@ const SkillsSection = ({ t }) => {
     title: "Database & Tools",
     icon: SiMysql,
     skills: [
-      { name: "MongoDB", icon: SiMongodb, color: "text-green-500", hoverColor: "group-hover:text-green-400", bgColor: "bg-green-500/10" },
+      // { name: "MongoDB", icon: SiMongodb, color: "text-green-500", hoverColor: "group-hover:text-green-400", bgColor: "bg-green-500/10" },
       { name: "MySQL", icon: SiMysql, color: "text-blue-600", hoverColor: "group-hover:text-blue-500", bgColor: "bg-blue-600/10" },
-      { name: "Git/GitHub", icon: FaGithub, color: "text-gray-700 dark:text-gray-300", hoverColor: "group-hover:text-gray-600 dark:group-hover:text-gray-400", bgColor: "bg-gray-700/10 dark:bg-gray-300/10" },
-      { name: "Vercel", icon: SiVercel, color: "text-black dark:text-white", hoverColor: "group-hover:text-gray-800 dark:group-hover:text-gray-200", bgColor: "bg-gray-800/10 dark:bg-gray-200/10" },
+      { name: "Git/GitHub", icon: FaGithub, color: "text-black dark:text-white", hoverColor: "group-hover:text-gray-800 dark:group-hover:text-gray-400", bgColor: "bg-gray-800/10 dark:bg-gray-200/10" },
+      { name: "Vercel", icon: SiVercel, color: "text-black dark:text-white", hoverColor: "group-hover:text-gray-800 dark:group-hover:text-gray-400", bgColor: "bg-gray-800/10 dark:bg-gray-200/10" },
       { name: "Postman", icon: SiPostman, color: "text-orange-500", hoverColor: "group-hover:text-orange-400", bgColor: "bg-orange-500/10" }
     ]
   },
@@ -219,11 +219,11 @@ const SkillsSection = ({ t }) => {
 
             <div className="space-y-4">
               {[
-                { label: "Frontend Development", value: 90, color: "from-cyan-500 to-blue-500" },
-                { label: "Backend Development", value: 85, color: "from-green-500 to-emerald-500" },
-                { label: "Database Design", value: 80, color: "from-blue-500 to-indigo-500" },
-                { label: "UI/UX Design", value: 75, color: "from-purple-500 to-pink-500" },
-                { label: "Problem Solving", value: 95, color: "from-orange-500 to-red-500" }
+                { label: "Frontend Development", value: 80, color: "from-cyan-500 to-blue-500" },
+                { label: "Backend Development", value: 75, color: "from-green-500 to-emerald-500" },
+                { label: "Database Design", value: 70, color: "from-blue-500 to-indigo-500" },
+                { label: "UI/UX Design", value: 65, color: "from-purple-500 to-pink-500" },
+                { label: "Problem Solving", value: 85, color: "from-orange-500 to-red-500" }
               ].map((item, index) => (
                 <motion.div
                   key={index}
