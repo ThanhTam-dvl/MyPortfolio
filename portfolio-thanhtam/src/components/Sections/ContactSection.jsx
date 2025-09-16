@@ -16,7 +16,7 @@ const ContactSection = ({ t }) => {
         setStatus(" Đang gửi...");
 
         try {
-            const res = await fetch("http://localhost:5000/send-mail", {
+            const res = await fetch(`${import.meta.env.VITE_API_URL}/send-mail`, {
                 method: "POST",
                 headers: {"Content-Type": "application/json"},
                 body: JSON.stringify(form)
