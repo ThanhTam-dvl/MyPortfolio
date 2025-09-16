@@ -75,14 +75,14 @@ const HeroSection = ({ t, scrollToSection }) => {
               {showCVOptions && (
                 <div className="absolute top-full mt-2 left-0 bg-white shadow-lg rounded-lg border p-4 space-y-2 z-50">
                   <a 
-                    href="/cv_vi.pdf" 
+                    href="/NguyenThanhTam_CV_VI.pdf" 
                     download="NguyenThanhTam_CV_VI.pdf"
                     className="block text-sm font-mono text-red-600 hover:underline"
                   >
                     📄 CV Tiếng Việt
                   </a>
                   <a 
-                    href="/cv_en.pdf" 
+                    href="/NguyenThanhTam_CV_EN.pdf" 
                     download="NguyenThanhTam_CV_EN.pdf"
                     className="block text-sm font-mono text-cyan-600 hover:underline"
                   >
