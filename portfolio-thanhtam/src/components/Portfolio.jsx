@@ -115,7 +115,7 @@ const Portfolio = () => {
       hero: {
         greeting: "Hello, I'm",
         name: 'NGUYEN THANH TAM',
-        role: 'Frontend Developer',
+        role: 'Web Developer',
         description:
           'I am a final-year Software Engineering student with experience in web application development using React, Angular, NodeJS, Laravel, and MySQL.',
         downloadCV: 'Download CV',

@@ -75,7 +75,7 @@ const SkillsSection = ({ t }) => {
   ];
 
   return (
-    <section id="skills" className="py-20 relative">
+    <section id="skills" className="py-10 relative">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-gray-900/20 to-transparent"></div>
 
       <div className="container mx-auto px-4 relative z-10">

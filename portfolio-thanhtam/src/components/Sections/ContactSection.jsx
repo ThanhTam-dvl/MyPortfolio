@@ -36,7 +36,7 @@ const ContactSection = ({ t }) => {
 
     return(
 
-    <section id="contact" className="py-20 relative">
+    <section id="contact" className="py-8 relative">
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-cyan-900/10 to-transparent"></div>
             
             <div className="container mx-auto px-4 relative z-10">

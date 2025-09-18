@@ -6,7 +6,7 @@ import { Award, MapPin, Phone, Mail, Calendar } from 'lucide-react';
 
 const AboutSection = ({ t }) => (
   
-    <section id="about" className="py-20 relative">
+    <section id="about" className="py-5 relative">
         <div className="container mx-auto px-4">
         <motion.div
             initial={{ opacity: 0, y: 50 }}

@@ -10,7 +10,7 @@ const HeroSection = ({ t, scrollToSection }) => {
   const [showCVOptions, setShowCVOptions] = useState(false);
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative pt-20">
+    <section id="home" className="min-h-screen flex items-center justify-center relative pt-5">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           {/* Phần thông tin bên trái */}
@@ -52,7 +52,7 @@ const HeroSection = ({ t, scrollToSection }) => {
               {t.hero.description}
             </motion.p>
             <motion.div 
-              className="flex flex-wrap gap-6 mt-12 relative"
+              className="flex flex-row gap-4 mt-12 relative justify-center"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.5 }}

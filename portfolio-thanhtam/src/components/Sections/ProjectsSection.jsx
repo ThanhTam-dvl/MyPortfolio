@@ -11,7 +11,7 @@ const projectImages = {
 };
 
 const ProjectsSection = ({ t }) => (
-  <section id="projects" className="py-20 relative">
+  <section id="projects" className="py-5 relative">
     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-red-900/10 to-transparent"></div>
     
     <div className="container mx-auto px-4 relative z-10">
