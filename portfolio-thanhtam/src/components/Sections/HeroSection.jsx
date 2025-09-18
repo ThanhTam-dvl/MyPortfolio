@@ -10,7 +10,7 @@ const HeroSection = ({ t, scrollToSection }) => {
   const [showCVOptions, setShowCVOptions] = useState(false);
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative pt-5">
+    <section id="home" className="min-h-screen flex items-center justify-center relative pt-20">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           {/* Phần thông tin bên trái */}
@@ -52,7 +52,7 @@ const HeroSection = ({ t, scrollToSection }) => {
               {t.hero.description}
             </motion.p>
             <motion.div 
-              className="flex flex-row gap-4 mt-12 relative justify-center"
+              className="flex flex-row gap-4 mt-12 relative justify-center sm:justify-start"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.5 }}
@@ -65,7 +65,7 @@ const HeroSection = ({ t, scrollToSection }) => {
                   boxShadow: "0 0 30px rgba(239, 68, 68, 0.5)"
                 }}
                 whileTap={{ scale: 0.95 }}
-                className="px-8 py-4 bg-gradient-to-r from-red-600 to-red-500 text-white font-bold rounded-lg border-2 border-red-500 hover:border-red-400 transition-all duration-300 font-mono uppercase tracking-wider"
+                className="px-4 py-4 bg-gradient-to-r from-red-600 to-red-500 text-white font-bold rounded-lg border-2 border-red-500 hover:border-red-400 transition-all duration-300 font-mono uppercase tracking-wider"
               >
                 <Download className="w-5 h-5 mr-2 inline" />
                 {t.hero.downloadCV}
@@ -97,7 +97,7 @@ const HeroSection = ({ t, scrollToSection }) => {
                   boxShadow: "0 0 30px rgba(6, 182, 212, 0.5)"
                 }}
                 whileTap={{ scale: 0.95 }}
-                className="px-8 py-4 bg-transparent border-2 border-cyan-400 text-cyan-400 font-bold rounded-lg hover:bg-cyan-400 hover:text-black transition-all duration-300 font-mono uppercase tracking-wider"
+                className="px-4 py-4 bg-transparent border-2 border-cyan-400 text-cyan-400 font-bold rounded-lg hover:bg-cyan-400 hover:text-black transition-all duration-300 font-mono uppercase tracking-wider"
               >
                 <Terminal className="w-5 h-5 mr-2 inline" />
                 {t.hero.contactMe}
